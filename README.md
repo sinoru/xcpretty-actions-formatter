@@ -1,4 +1,4 @@
-# Xcpretty::Actions::Formatter
+# XCPretty::ActionsFormatter
 
 Formatter for xcpretty customized to provide pretty output on GitHub Actions.
 
