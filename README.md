@@ -23,7 +23,7 @@ Or install it yourself as:
 ```
 #!/bin/bash
 
-xcodebuild | xcpretty -f `xcpretty-travis-formatter`
+xcodebuild | xcpretty -f `xcpretty-actions-formatter`
 ```
 
 ## Development
