@@ -7,4 +7,6 @@ task :default => :spec
 
 task :ci do
     sh 'cat spec/fixtures/raw_kiwi_compilation_fail.txt | xcpretty -f "`bin/xcpretty-actions-formatter`"' 
+    sh 'cat spec/fixtures/raw_kiwi_fail.txt | xcpretty -f "`bin/xcpretty-actions-formatter`"' 
+    sh 'cat spec/fixtures/raw_specta_fail.txt | xcpretty -f "`bin/xcpretty-actions-formatter`"' 
 end
